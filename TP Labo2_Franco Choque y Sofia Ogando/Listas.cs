@@ -13,7 +13,7 @@ namespace TP_Labo2_Franco_Choque_y_Sofia_Ogando
 
         public Listas() { 
             Listado = new List<string>();
-            cant = 0;    
+            cant = 0;  
         }
 
     }

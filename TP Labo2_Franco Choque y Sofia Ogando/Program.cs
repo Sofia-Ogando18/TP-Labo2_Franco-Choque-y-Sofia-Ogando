@@ -12,7 +12,7 @@ namespace TP_Labo2_Franco_Choque_y_Sofia_Ogando
         /// Punto de entrada principal para la aplicación.
         /// </summary>
         /// 
-         static void Agregar_elementos(List<string> lista_,Listas l) {
+        static void Agregar_elementos(List<string> lista_,Listas l) {
 
             lista_.Add("licuadora");
             lista_.Add("exprimidor");
@@ -63,7 +63,7 @@ namespace TP_Labo2_Franco_Choque_y_Sofia_Ogando
             Agregar_elementos_blancos(Linea_blanca.Listado, Linea_blanca);
             Listas Electronicos = new Listas();
             Agregar_elementos_Elect(Electronicos.Listado, Electronicos);
-
+          
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
